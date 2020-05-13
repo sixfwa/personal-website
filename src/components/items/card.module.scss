@@ -1,0 +1,16 @@
+.card {
+  border: 0.2rem solid #d90429;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
