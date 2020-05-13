@@ -1,0 +1,38 @@
+.typewriter {
+  max-width: 250px;
+}
+
+.description {
+  text-align: justify;
+}
+
+.typewriter h1 {
+  overflow: hidden; // ensures that the content is not revealed until the animation
+  border-right: 0.15em solid #d90429; // the typewriter cursor
+  white-space: nowrap; // keeps the content on a single line
+  margin: 0 auto;
+  //   letter-spacing: 0.15em;
+  animation: typing 2.5s steps(15, end), blink-caret 0.8s step-end infinite;
+  margin-bottom: 1rem;
+}
+
+// the typing effect
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+// the typewriter cursor effect
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #d90429;
+  }
+}
