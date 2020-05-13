@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1rem;
   text-align: center;
   grid-gap: 1rem;
@@ -55,6 +55,20 @@
   transition: box-shadow 0.25s ease-in-out;
 }
 
+// for flutter box
+.flutter {
+  background-color: #4515d4;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+}
+
+.flutter:hover {
+  box-shadow: 0 8px 6px -6px #130638;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
 .python {
   background-color: #306998;
   padding: 0.6rem;
@@ -75,6 +89,20 @@
 }
 
 .java:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+// for postgres box
+.postgres {
+  background-color: #081c80;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+}
+
+.postgres:hover {
   box-shadow: 0 8px 6px -6px black;
   transition: box-shadow 0.25s ease-in-out;
 }
