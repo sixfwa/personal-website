@@ -18,7 +18,7 @@ const Header = () => {
     <header className={HeaderStyles.header}>
       <h1>
         <Link className={HeaderStyles.title} to="/">
-          {data.site.siteMetadata.title}
+          Francis Ali
         </Link>
       </h1>
       <nav className={HeaderStyles.navList}>
