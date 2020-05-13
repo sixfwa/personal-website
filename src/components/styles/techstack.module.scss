@@ -1,0 +1,80 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  text-align: center;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.react {
+  background-color: #61dbfb;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #2e6473;
+}
+
+.react:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.node {
+  background-color: #68a063;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #36543a;
+}
+
+.node:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.mongodb {
+  background-color: #4db33d;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #317327;
+}
+
+.mongodb:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.javaScript {
+  background-color: #f0db4f;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #b0a13f;
+}
+
+.javaScript:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.python {
+  background-color: #306998;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #132a3d;
+}
+
+.python:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.java {
+  background-color: #f89820;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #b37425;
+}
+
+.java:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
