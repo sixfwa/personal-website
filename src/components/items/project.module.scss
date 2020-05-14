@@ -1,0 +1,38 @@
+.project {
+  text-align: center;
+  // border: 0.2rem solid #d90429;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-size: contain;
+}
+
+.info {
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  background-color: #f1faee;
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+
+.project:hover {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.project:hover .info {
+  opacity: 1;
+}
+
+.text {
+  color: #2b2d42;
+  opacity: 0.85;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #2b2d42;
+}
