@@ -38,7 +38,7 @@ const ProjectPage = () => {
     <Layout>
       <Head title="Projects" />
       <h1>Projects</h1>
-      <p>Projects will show up here later on.</p>
+      <h3>Mini Projects</h3>
       <div className={projectsStyles.container}>
         {miniProjects.map(project => {
           return (
