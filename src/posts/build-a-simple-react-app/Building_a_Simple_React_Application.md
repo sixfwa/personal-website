@@ -164,7 +164,7 @@ Congratulations! We've just developed a very basic React application that allows
 
 Thank you so much for reading this blog post. I hope you found it helpful. This entire project is available in my [GitHub](https://github.com/sixfwa/react-project-1):
 
-If you have any comment or feedback, please feel free to reach me via Twitter: @sixfwa
+If you have any comment or feedback, please feel free to reach me via Twitter: [@sixfwa](https://twitter.com/sixfwa)
 
 ### Installation Guide
 
