@@ -5,16 +5,20 @@
 
 .post {
   margin: 1rem 0;
+
   a {
-    background: #fff3b0;
-    color: black;
+    background: #f1faee;
+    color: #2b2d42;
     display: block;
     padding: 1.2rem;
     text-decoration: none;
+    border: 0.2rem solid #d90429;
+    border-radius: 1rem;
   }
 
   a:hover {
-    background: #fff3b0;
+    box-shadow: 0 8px 6px -6px black;
+    transition: box-shadow 0.25s ease-in-out;
   }
 
   h2 {
@@ -22,8 +26,8 @@
   }
 
   p {
-    color: #2a9d8f;
+    color: #1d3557;
     font-size: 0.8rem;
-    font-style: italic;
+    // font-style: italic;
   }
 }
