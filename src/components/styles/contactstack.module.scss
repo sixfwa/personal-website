@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@mixin card-style($borderColor, $backgroundColor, $color) {
+  padding: 0.6rem;
+  border: 0.2rem solid $borderColor;
+  background-color: $backgroundColor;
+  border-radius: 1rem;
+  color: $color;
+}
+
+.email {
+  @include card-style(#b23121, #ffffff, #b23121);
+}
+
+.twitter {
+  @include card-style(#1da1f2, #ffffff, #1da1f2);
+}
+
+.medium {
+  @include card-style(black, #ffffff, black);
+}
+
+.github {
+  @include card-style(#6e5494, #ffffff, #6e5494);
+}
