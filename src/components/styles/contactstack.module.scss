@@ -18,18 +18,39 @@
   color: $color;
 }
 
+@mixin hover-card {
+  box-shadow: 0 8px 6px -6px black;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
 .email {
   @include card-style(#b23121, #ffffff, #b23121);
+}
+
+.email:hover {
+  @include hover-card();
 }
 
 .twitter {
   @include card-style(#1da1f2, #ffffff, #1da1f2);
 }
 
+.twitter:hover {
+  @include hover-card();
+}
+
 .medium {
   @include card-style(black, #ffffff, black);
 }
 
+.medium:hover {
+  @include hover-card();
+}
+
 .github {
   @include card-style(#6e5494, #ffffff, #6e5494);
+}
+
+.github:hover {
+  @include hover-card();
 }
