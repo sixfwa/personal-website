@@ -3,23 +3,22 @@ import Layout from "../components/layout"
 import projectsStyles from "./projects.module.scss"
 import Head from "../components/head"
 import Project from "../components/items/project"
-import coeusImage from "../project-images/coeus.jpg"
-import shoppingImage from "../project-images/shopping-list.jpg"
-import hermesImage from "../project-images/hermes.jpg"
 
 const ProjectPage = () => {
   const [miniProjects] = useState([
     {
       title: "COEUS",
       description: "A Flask web application for sentiment analysis",
-      image: coeusImage,
+      image:
+        "https://images.unsplash.com/photo-1589735527279-8935bce906ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
       link: "https://coeus-analysis.herokuapp.com/",
       github: "https://github.com/sixfwa/coeus-sentiment-analysis",
     },
     {
       title: "Shopping List",
       description: "A shopping list application built using ReactJS",
-      image: shoppingImage,
+      image:
+        "https://images.unsplash.com/photo-1589763980315-f49dd8cdbef1?ixlib=rb-1.2.1&auto=format&fit=crop&w=367&q=80",
       link: "https://francis-shopping-list.netlify.app/",
       github:
         "https://github.com/sixfwa/shopping-list-app-react/tree/master/shopping-list",
@@ -28,7 +27,8 @@ const ProjectPage = () => {
       title: "Project Hermes",
       description:
         "A simple blog application built using Django and PostgreSQL",
-      image: hermesImage,
+      image:
+        "https://images.unsplash.com/photo-1589827606411-2c50ee040db0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=343&q=80",
       link: "https://thawing-depths-53145.herokuapp.com/",
       github: "https://github.com/sixfwa/hermes-django",
     },
