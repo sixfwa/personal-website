@@ -7,6 +7,15 @@ import Project from "../components/items/project"
 const ProjectPage = () => {
   const [miniProjects] = useState([
     {
+      title: "Quiz Web App",
+      description:
+        "Built using ReactJS. Built to help me better understand the Context API",
+      image:
+        "https://images.unsplash.com/photo-1484069560501-87d72b0c3669?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+      link: "https://quiz-app-sixfwa.netlify.app/",
+      github: "https://github.com/sixfwa/quiz-app",
+    },
+    {
       title: "COEUS",
       description: "A Flask web application for sentiment analysis",
       image:
