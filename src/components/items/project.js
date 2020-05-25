@@ -12,7 +12,7 @@ const Project = ({ title, description, logo, url, github }) => {
         <p className={projectStyles.text}>{description}</p>
         <div className={projectStyles.links}>
           <a href={url} target="_blank" rel="noopener noreferrer">
-            URL
+            DEMO
           </a>
           {"  "}|{"  "}
           <a href={github} target="_blank" rel="noopener noreferrer">
