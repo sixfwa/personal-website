@@ -1,8 +1,12 @@
 import React from "react"
 import TechStackStyles from "./styles/techstack.module.scss"
 import { FaPython, FaNodeJs, FaJava, FaReact } from "react-icons/fa"
-import { DiMongodb, DiJavascript1, DiPostgresql } from "react-icons/di"
-import { RiFlutterLine } from "react-icons/ri"
+import {
+  DiMongodb,
+  DiJavascript1,
+  DiPostgresql,
+  DiDjango,
+} from "react-icons/di"
 
 const TechStack = () => {
   return (
@@ -24,8 +28,8 @@ const TechStack = () => {
         <h4>JavaScript</h4>
       </div>
       <div className={TechStackStyles.flutter}>
-        <RiFlutterLine size="3em" />
-        <h4>Flutter</h4>
+        <DiDjango size="3em" />
+        <h4>Django</h4>
       </div>
       <div className={TechStackStyles.python}>
         <FaPython size="3em" />
